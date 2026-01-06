@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.app {
+  width: 480px;
+  margin: 80px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+}
+
+ul {
+  margin-top: 15px;
+}
+
+#error {
+  color: red;
+}
+
+#vault {
+  display: none;
+}
