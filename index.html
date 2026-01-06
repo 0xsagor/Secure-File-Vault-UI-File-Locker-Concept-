@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure File Vault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Secure File Vault</h1>
+
+  <!-- Lock Screen -->
+  <div id="lock">
+    <input type="password" id="pass" placeholder="Enter vault password">
+    <button onclick="unlock()">Unlock Vault</button>
+    <p id="error"></p>
+  </div>
+
+  <!-- Vault -->
+  <div id="vault">
+    <input type="file" id="file">
+    <button onclick="addFile()">Add File</button>
+    <button onclick="lock()">Lock Vault</button>
+
+    <ul id="files"></ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
